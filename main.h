@@ -5,11 +5,16 @@
 * @f: function
 */
 
+#include <stdarg.h>
+#include <stddef.h>
+
 typedef struct op
 {
 	char *c;
 	int (*f)(va_list);
 } op_t;
+
+int _putchar(char c);
 
 int _printf(const char *format, ...);
 int _putchar(char c);
