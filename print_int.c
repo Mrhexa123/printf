@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_int - Print int
  * @types: Lista of arguments
