@@ -82,5 +82,3 @@ long int convert_size_unsgnd(unsigned long int num, int size)
 	else if (size == S_SHORT)
 		return ((unsigned short)num);
 
-	return ((unsigned int)n
-
